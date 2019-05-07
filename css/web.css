@@ -1,0 +1,355 @@
+
+/*بداية الثوابت*/
+body{
+      -webkit-transition: all .3s ease-in-out;
+     transition: all .3s ease-in-out;
+    
+}
+.img-full{
+    width: 100%;
+}
+
+.no-padding{
+    padding: 0px;
+    
+}
+
+h1, h2, h3, h4, h5, a {
+    color: #000;
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+p {
+    color: #666666;
+    line-height: 24px;
+    letter-spacing: 0.12em;
+    font-size: 15px;
+}
+h3 {
+    font-size: 16px;
+    letter-spacing: 0.16em;
+}
+/*نهاية الثوابت*/
+/*start fix navbar*/
+body{
+    height: 10000px;
+}
+
+.navbar{
+        padding-top:10px;
+        padding-bottom: 10px;
+        background-color: transparent;
+        border: none;
+        
+}
+
+.navbar-default .navbar-brand ,.navbar-default .navbar-brand:hover{
+  color:   #fff;
+   line-height: 20px;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    background-color: transparent;
+    padding-top: 20px;
+}
+
+
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+    font-weight: bold;
+    padding-top: 20px;
+   
+   
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover ,.navbar-default .navbar-nav > li > a:hover{
+    color:#57d1c9;
+    font-weight: bold;
+    padding-top:20px;
+}
+.navbar2 .collapse .nav li a{
+    color: #000;
+}
+.navbar2 .collapse .nav li a:hover,
+.navbar2 .collapse .nav li a.active{
+     color:#57d1c9;
+    font-weight: bold;
+    padding-top:20px;
+}
+/*end fix navbar*/
+/*satr header*/
+.header{
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    margin-top: -60px;
+}
+.header H1{
+    color: #FFF;
+    line-height: 100vh;
+    letter-spacing: 0.38em;
+    font-size: 39px;
+    font-weight: bold;
+}
+.header .ti-mouse{
+  width: 24px;
+    height: 38px;
+    display: inline-block;
+    border: 3px solid #fff;
+    position: absolute;
+    top: 80%;
+    left: 49%;
+    border-radius: 17px;
+ 
+    padding-bottom: 33px;
+    
+}
+.header .ti-mouse .click{
+    width: 4px;
+    height: 10px;
+    display: inline-block;
+    border: 3px solid #fff;
+    position: absolute;
+    top: 23%;
+    left: 34%;
+    border-radius: 17px;
+    transition: all .5s ease-in-out;
+}
+.header .ti-mouse .click:hover{
+   -webkit-transform: translate(0 , 5px);
+    -moz-transform: translate(0 , 5px);
+    -o-transform: translate(0 , 5px);
+    transform: translate(0 , 5px);
+}
+.header h4{
+    
+    color: #FFF;
+    position: absolute;
+    top: 87%;
+    left: 46.3%;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    cursor: pointer;
+}
+.header h4:hover{
+    color:#57d1c9;
+}
+/*end header*/
+/*start about us*/
+.about-us{
+    padding-top: 144px;
+    padding-bottom: 144px;
+}
+.about-us h2{
+    font-size: 25px;
+    letter-spacing: 0.25em;
+    margin-bottom: 20px;
+}
+.about-us .row{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.about-us .row h3{
+    margin-bottom: 30px;
+}
+.about-us .row h3 span{
+    color: #57d1c9;
+}
+.about-us .right{
+        padding-bottom: 19px;
+
+}
+.about-us .right h4{
+    display: inline;
+    width: 49%;
+    margin-right: 2px;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    font-weight: 600;
+}
+.about-us .right h4:first-child{
+       margin-right: 80%;
+}
+.about-us .right>div{
+    background-color: #f5f5f5;
+    height: 8px;
+    margin-top: 16px;
+}
+.about-us .right .pru>div {
+    background-color:  #57d1c9;
+}
+.about-us .right .pru{
+    border-radius: 0;
+    text-transform:lowercase;
+}
+.about-us .social li:first-child{
+    margin-left: 0;
+}
+.about-us .social li{
+    display: inline-block;
+    margin-left: 14px;
+}
+.about-us .social{
+    padding-top: 33px;
+}
+.about-us .social li a{
+    color:#646464;
+    cursor: pointer;
+}
+.about-us .social li a:hover{
+    color:  #57d1c9;
+}
+.grid-item:hover .over{
+    opacity: 1;
+    -webkit-transform: scale(1.0);
+    transform: scale(1.0);
+}
+
+
+
+/*end about us*/
+/*satrt portifoli*/
+.portifolio .img {
+   
+    position: relative;
+   
+ 
+}
+
+.portifolio .img .over{
+   position: absolute;
+    top: 50%;
+    left:50%;
+    width:1%;
+    height:1%;
+    background-color: rgba(87,209,201,0.86);
+    -webkit-transition: all .3s ease-in-out;
+     transition: all .3s ease-in-out;
+    color: #333;
+    opacity: 0;
+}
+.portifolio .img:hover .over{
+   opacity: 1;
+     width:100%;
+    height: 100%;
+    top:0;
+    left:0;
+    
+}
+.portifolio .img  .over a{
+    font-size: 14pt;
+    color: #fff;
+   line-height: 377.952756px;
+    text-align: center;
+    text-decoration: none;
+    margin: 32%;
+}
+.portifolio .conta {
+    padding-top: 72px;
+    padding-bottom: 72px;
+    background-color:#57d1c9;
+ 
+}
+.portifolio .conta h2{
+    color: #fff;
+    line-height: 52px;
+    font-size: 25px;
+    letter-spacing: 0.14em
+}
+.portifolio .conta a.btn {
+    font-weight: 700;
+    color: #fff;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    padding: 14px 36px;
+}
+.portifolio .conta a.btn-white {
+    border: 2px solid #fff;
+    -webkit-transition: all 01s ease;
+    -moz-transition: all 01s ease;
+    transition: all 01s ease;
+    
+}
+.portifolio .conta a:hover {
+    border: 2px solid #fff;
+    background-color:  #fff;
+    color: #57d1c9;
+    
+}
+
+/*end portifoli*/
+/*satr services*/
+.services{
+    padding-bottom: 142px;
+    padding-top: 142px
+}
+.services .row{
+    margin-bottom: 40px;
+}
+.services .row h3{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.services .row h3:hover{
+    color:#57d1c9;  
+}
+.services .row .all>div:hover{
+    color: #57d1c9; 
+    
+}
+/*end services*/
+/*start clients*/
+.clients{
+    background-image: url(../img/testimonials.jpg);
+    background-attachment: fixed;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    min-height: 400px;
+    
+  
+}
+.clients .carousel-indicators li{
+    width: 10px;
+    height: 10px;
+    margin: 5px 7px;
+    background: #D6D6D6;
+    display:inline-block;
+    border: 1px solid  #D6D6D6;
+    transition: opacity .2s ease;
+    border-radius: 30px;
+}
+.clients .carousel-indicators li:hover{
+    background-color: #57d1c9;
+    border: 1px solid #57d1c9;
+}
+.clients .carousel-indicators {
+    top: 180px;
+}
+.clients h2{
+    margin-bottom: 4%;
+}
+.clients h3{
+   margin-top: 24px;
+    margin-bottom: 12px;
+    font-size: 16px;
+    letter-spacing: 0.16em;
+}
+.clients h4{
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    
+}
+.photo{
+    background-color: #fbfbfb;
+    padding-top: 96px;
+     padding-bottom: 96px;
+}
+
+/*end clients*/
